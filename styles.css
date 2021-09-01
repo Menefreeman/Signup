@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.signup{  
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+label{
+    margin: 10px;
+}
+.img{
+    width: 40%;
+    background-image: url();
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img h1{
+    margin: 40px 28px;
+    color:black;
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+}
+.join{ margin: 17%;
+   
+}
+.join h1{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.form{
+    width: 60%;
+    padding: 40px;
+}
+.logo{display: flex;
+    justify-content: flex-end;
+}
+.gender{display: flex;
+    size: 23px;
+}
+.form-row{justify-content: space-between;
+    display: flex;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+.form-row .input-box{
+    width: 48%;
+}
+.form-row .input-box input[type="password"],
+.form-row .input-box input[type="text"],
+.form-row .input-box input[type="email"],
+.form-row .input-box select,
+.textarea-section{
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 45px solid black;
+}
+
+.btn-section{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-section button{
+    background: blue;
+    padding: 8px 40px;
+    border: none;
+    color: white;
+    border-radius: 10px 0 10px 0;
+}
+input,
+select,
+textarea{
+    margin-top: 13px;
+}
+.textarea-section{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+    padding: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
